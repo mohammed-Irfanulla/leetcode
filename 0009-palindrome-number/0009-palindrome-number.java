@@ -9,9 +9,6 @@ class Solution {
             rev = rev *10 + rem;
             x = x/10;
         }
-        if(rev == num)
-            return true;
-        else
-            return false;
+        return (rev == num);
     }
 }
